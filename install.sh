@@ -30,7 +30,7 @@ PH_TEST=true . "${PIHOLE_INSTALL}"
 {
   echo "PIHOLE_INTERFACE=eth0"
   echo "IPV4_ADDRESS=0.0.0.0"
-  echo "IPV6_ADDRESS=0:0:0:0:0:0"
+ ## echo "IPV6_ADDRESS=0:0:0:0:0:0"
   echo "PIHOLE_DNS_1=8.8.8.8"
   echo "PIHOLE_DNS_2=8.8.4.4"
   echo "QUERY_LOGGING=true"
